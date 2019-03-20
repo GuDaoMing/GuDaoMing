@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录界面"
+        android:textSize="30sp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/user"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户名"/>
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"/>
+    <CheckBox
+        android:id="@+id/inpwd"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住密码"/>
+
+    <CheckBox
+        android:id="@+id/unpwd"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="自动登录"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"/>
+    <Button
+        android:id="@+id/addlogin"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"/>
+</RelativeLayout>
